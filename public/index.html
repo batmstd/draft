@@ -27,7 +27,25 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBEcUVGrCw-bOuSHXVGQIX2KR2nYxrnF3k",
+      authDomain: "draft-laststicker.firebaseapp.com",
+      projectId: "draft-laststicker",
+      storageBucket: "draft-laststicker.appspot.com",
+      messagingSenderId: "529414986941",
+      appId: "1:529414986941:web:34a3711e5ccfdad54c2bd4"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
